@@ -1,0 +1,104 @@
+main#main {
+	width: 100%;
+}
+
+/* JUMBROTRON */
+#jumbotron {
+	width: 100%;
+
+	padding: 40px 25px 60px 25px;
+
+	background-color: var(--color-lightgray);
+}
+
+#jumbotron .container {
+	width: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#jumbotron h1 {
+	font-size: 50px;
+}
+
+#jumbotron p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+/* ---------- */
+
+/* CATALOGUE */
+#catalogue {
+	width: 100%;
+	height: max-content;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+#catalogue h2 {
+	font-size: 35px;
+	margin: 30px 20px;
+}
+
+#catalogue-card-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	width: 100%;
+}
+.catalogue-card {
+	width: max-content;
+
+	margin: 20px;
+
+	text-align: center;
+}
+
+.card-img-container {
+	width: 200px;
+	height: 200px;
+
+	overflow: hidden;
+}
+.card-img-container img {
+	width: 100%;
+	height: auto;
+}
+
+.card-img-caption {
+	font-size: 20px;
+}
+/* --------- */
+
+/* MAP */
+#map {
+	width: 100%;
+
+	background-color: var(--color-lightgray);
+}
+
+#map .container{
+	width: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#map h2 {
+	font-size: 35px;
+	margin: 0 20px 30px 20px;
+}
+
+#map-container {
+	text-align: center;
+}
+
+#map-container iframe {
+	width: 100%;
+}

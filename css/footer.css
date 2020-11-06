@@ -1,0 +1,64 @@
+footer#footer {
+	width: 100%;
+
+	padding-bottom: 50px;
+
+	background-color: #737373;
+	color: white;
+	font-size: 20px;
+}
+
+#footer .container {
+	display: flex;
+	flex-wrap: wrap;
+
+	width: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact,
+#lieu {
+	flex: 1;
+
+	min-width: max-content;
+
+	padding: 30px 25px;
+}
+
+#contact > div ,
+#lieu > div {
+	margin-top: 10px;
+}
+
+#contact-tel {
+	display: flex;
+
+}
+
+#tel-num-container {
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 10px
+}
+
+
+#tel-num-container a,
+#contact-email address a{
+	text-decoration: none;
+	color: #aec9ff;
+	transition: background-color 300ms;
+}
+#tel-num-container a:hover,
+#contact-email address a:hover{
+	color: #83a9f7;
+}
+
+#contact-email {
+		display: flex;
+}
+#contact-email address {
+	margin-left: 10px;
+}
